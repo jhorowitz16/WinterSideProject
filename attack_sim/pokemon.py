@@ -98,7 +98,7 @@ DEFAULT_POKEMON = Pokemon(DEFAULT, 0, 0, 0, 0, 0, 0, 0, 0, DEFAULT, DEFAULT, [DE
 
 # moves 
 tackle = Move('Tackle', 'Normal', 'Physical', 50, 100, DEFAULT)
-tail_whip = Move('Tail Whip', 'Normal', 'Status', 50, 30, 'Lowers Opponent\'s Defense')
+tail_whip = Move('Tail Whip', 'Normal', 'Status', 0, 30, 'Lowers Opponent\'s Defense')
 water_gun = Move('Water Gun', 'Water', 'Special', 40, 100, DEFAULT)
 thunder_shock = Move('Thunder Shock', 'Electric', 'Special', 40, 100, 'May paralyze opponent')
 
